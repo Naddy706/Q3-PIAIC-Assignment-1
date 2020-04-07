@@ -13,3 +13,7 @@ Microservices structures an application as a collection of services that are
 > 5. Owned by a small team
 
 The microservice architecture enables the rapid, frequent and reliable delivery of large, complex applications. It also enables an organization to evolve its technology stack.
+
+# Visual View OF Microservice
+
+![Microservice-Architecture](https://user-images.githubusercontent.com/33847438/78710128-57515700-7904-11ea-9a77-2a9cd78b5f8b.png)
