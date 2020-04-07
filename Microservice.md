@@ -28,3 +28,6 @@ Loosely coupled with other services - enables a team to work independently the m
 Microservices should be independently deployable; if not, it probably means that there is some kind of coupling within our architecture that needs to be solved. If we could meet other principles but we fail at this, we are probably decrementing the benefits of this architecture.
 Having the ability to deliver constantly is one of the advantages of the microservices architecture; any constraints should be removed, as much as we remove bugs from our applications.
 We should take care of deployments from the beginning of the design of our microservices and architecture; finding a constraint on this area at late stages could have a big impact on the overall application.
+
+# 4.Organized around business capabilities.
+Organized around business capabilities – Microservices are not organized around technical capabilities of a particular product, but rather business capabilities. As the end goal is user experience and customer satisfaction, the teams leveraging microservices are not divided into UI teams, database teams and so on.
