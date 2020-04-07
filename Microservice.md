@@ -17,3 +17,6 @@ The microservice architecture enables the rapid, frequent and reliable delivery 
 # Visual View OF Microservice
 
 ![Microservice-Architecture](https://user-images.githubusercontent.com/33847438/78710128-57515700-7904-11ea-9a77-2a9cd78b5f8b.png)
+
+# 1. Highly maintainable and testable.
+Highly maintainable and testable - enables rapid and frequent development and deployment. Loosely coupled with other services - enables a team to work independently the majority of time on their service(s) without being impacted by changes to other services and without affecting other services.
