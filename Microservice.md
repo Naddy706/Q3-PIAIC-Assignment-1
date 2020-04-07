@@ -20,3 +20,6 @@ The microservice architecture enables the rapid, frequent and reliable delivery 
 
 # 1. Highly maintainable and testable.
 Highly maintainable and testable - enables rapid and frequent development and deployment. Loosely coupled with other services - enables a team to work independently the majority of time on their service(s) without being impacted by changes to other services and without affecting other services.
+
+# 2. Loosely coupled.
+Loosely coupled with other services - enables a team to work independently the majority of time on their service(s) without being impacted by changes to other services and without affecting other services.
