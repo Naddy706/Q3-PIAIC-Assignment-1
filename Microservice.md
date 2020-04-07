@@ -45,3 +45,16 @@ As microservices heavily rely on messaging, they can face certain problems. Comm
 
 Having to maintain a network lead to other kinds of issues, too. What we gain on the simplicity of single-responsibility microservices, lose on the complexity of the network. Or, at least a part of it. For instance, while independent microservices have better fault tolerance than monolithic applications, the network has worse.
 Communication between microservices can mean poorer performance, as sending messages back and forth comes with a certain overhead. And, while teams can choose which programming language and platform they want to use, they also need to collaborate much better. After all, they need to manage the whole lifecycle of the microservice, from start to end.
+
+### To recap the main points, here are the pros and cons of microservices compared to monolithic applications:
+
+Pros | Cons
+------------ | -------------
+Greater agility | Needs more collaboration (each team has to cover the whole microservice lifecycle)
+Faster time to market | Harder to test and monitor because of the complexity of the architecture
+Better scalability | Poorer performance, as microservices need to communicate (network latency, message processing, etc.)
+Faster development cycles (easier deployment and debugging) | Harder to maintain the network (has less fault tolerance, needs more load balancing, etc.)
+Easier to create a CI/CD pipeline for single-responsibility services | Doesn’t work without the proper corporate culture (DevOps culture, automation practices, etc.)
+Isolated services have better fault tolerance | Security issues (harder to maintain transaction safety, distributed communication goes wrong more likely, etc.)
+Platform- and language agnostic services |
+Cloud-readiness |
