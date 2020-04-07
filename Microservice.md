@@ -31,3 +31,6 @@ We should take care of deployments from the beginning of the design of our micro
 
 # 4.Organized around business capabilities.
 Organized around business capabilities – Microservices are not organized around technical capabilities of a particular product, but rather business capabilities. As the end goal is user experience and customer satisfaction, the teams leveraging microservices are not divided into UI teams, database teams and so on.
+
+# 5.Owned by small teams.
+Each service is owned by a team, which has sole responsibility for making changes. Ideally each team has only one service: Each team is responsible for one or more business functions (e.g. business capabilities). A team owns (has sole responsibility for changing) a code base consisting of one or more modules.
